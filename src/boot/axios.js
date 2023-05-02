@@ -3,6 +3,7 @@
 import { boot } from "quasar/wrappers";
 import axios from "axios";
 
+//const baseURL = "http://localhost:3001";
 const baseURL = "http://18.118.221.107:3001";
 const api = axios.create({ baseURL: baseURL });
 
